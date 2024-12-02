@@ -1,6 +1,5 @@
 #Serial fb15k237
-python -u acre.py --data FB15k-237 --batch 128 \
---hid_drop 0.5 --feat_drop 0.2 --lr 0.001 --inp_drop 0.3  --way s --train_strategy one_to_x
+python -u acre.py --data FB15k-237 --batch 128 --hid_drop 0.5 --feat_drop 0.2 --lr 0.001 --inp_drop 0.3  --way t --train_strategy one_to_x
 
 #Serial fb15k
 python -u acre.py --data FB15k --batch 256 \

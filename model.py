@@ -40,11 +40,11 @@ class AcrE(torch.nn.Module):
 			self.conv3 = torch.nn.Conv2d(self.p.channel, self.p.channel, (3, 3), 1, self.third_atrous, bias=self.p.bias, dilation=self.third_atrous)
 		else:
 			self.conv1 = torch.nn.Conv2d(1, self.p.channel, (3, 3), 1, self.first_atrous, bias=self.p.bias,
-										 dilation=self.first_atrous)
+										 dilation=self.first_atrous,padding_mode='circular')
 			self.conv2 = torch.nn.Conv2d(1, self.p.channel, (3, 3), 1, self.second_atrous, bias=self.p.bias,
-										 dilation=self.second_atrous)
+										 dilation=self.second_atrous,padding_mode='circular')
 			self.conv3 = torch.nn.Conv2d(1, self.p.channel, (3, 3), 1, self.third_atrous, bias=self.p.bias,
-										 dilation=self.third_atrous)
+										 dilation=self.third_atrous,padding_mode='circular')
 			self.W_gate_e = torch.nn.Linear(1600, 400)
 
 		self.register_parameter('bias', Parameter(torch.zeros(self.p.num_ent)))
