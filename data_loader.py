@@ -59,13 +59,13 @@ class TrainDataset(Dataset):
 		def get(triple, label):
 			if self.strategy == 'one_to_x':
 				pos_obj		= triple[2]
-				mask		= np.ones([self.p.num_ent], dtype=np.bool)
+				mask		= np.ones([self.p.num_ent], dtype=np.bool_)
 				mask[label]	= 0
 				neg_ent		= np.int32(np.random.choice(self.entities[mask], self.p.neg_num, replace=False)).reshape([-1])
 				neg_ent		= np.concatenate((pos_obj.reshape([-1]), neg_ent))
 			else:
 				pos_obj		= label
-				mask		= np.ones([self.p.num_ent], dtype=np.bool)
+				mask		= np.ones([self.p.num_ent], dtype=np.bool_)
 				mask[label]	= 0
 				neg_ent		= np.int32(np.random.choice(self.entities[mask], self.p.neg_num - len(label), replace=False)).reshape([-1])
 				neg_ent		= np.concatenate((pos_obj.reshape([-1]), neg_ent))
