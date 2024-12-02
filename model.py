@@ -13,7 +13,7 @@ class AcrE(torch.nn.Module):
 	The AcrE model instance
 		
 	"""
-	def __init__(self, params):
+	def __init__(self, params,chequer_perm):
 		super(AcrE, self).__init__()
 
 		self.p                  = params
@@ -33,7 +33,7 @@ class AcrE(torch.nn.Module):
 		self.first_atrous	= self.p.first_atrous
 		self.second_atrous  = self.p.second_atrous
 		self.third_atrous	= self.p.third_atrous
-
+		self.chequer_perm = chequer_perm
 		if self.way == 's':
 			self.conv1 = torch.nn.Conv2d(1, self.p.channel, (3, 3), 1, self.first_atrous, bias=self.p.bias, dilation=self.first_atrous)
 			self.conv2 = torch.nn.Conv2d(self.p.channel, self.p.channel, (3, 3), 1, self.second_atrous, bias=self.p.bias, dilation=self.second_atrous)
@@ -56,10 +56,12 @@ class AcrE(torch.nn.Module):
 		return loss
 
 	def forward(self, sub, rel, neg_ents, strategy='one_to_x'):
-		sub_emb		= self.ent_embed(sub).view(-1, 1, 10, 20)
-		rel_emb		= self.rel_embed(rel).view(-1, 1, 10, 20)
-		comb_emb	= torch.cat([sub_emb, rel_emb], dim=2)
-		stack_inp = self.bn0(comb_emb)
+		sub_emb		= self.ent_embed(sub)
+		rel_emb		= self.rel_embed(rel)
+		comb_emb = torch.cat([sub_emb, rel_emb], dim=1)
+		chequer_perm = comb_emb[:, self.chequer_perm]
+		stack_inp = chequer_perm.reshape((-1, self.p.perm, 2 * self.p.k_w, self.p.k_h))
+		stack_inp = self.bn0(stack_inp)
 		x		= self.inp_drop(stack_inp)
 		res = x
 		if self.way == 's':

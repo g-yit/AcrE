@@ -139,7 +139,56 @@ class Main(object):
 			'test_head'	:   get_data_loader(TestDataset,  'test_head',  self.p.batch_size),
 			'test_tail'	:   get_data_loader(TestDataset,  'test_tail',  self.p.batch_size),
 		}
+		self.chequer_perm = self.get_chequer_perm()
 
+	def get_chequer_perm(self):
+		"""
+		Function to generate the chequer permutation required for InteractE model
+
+		Parameters
+		----------
+
+		Returns
+		-------
+
+		"""
+		ent_perm = np.int32([np.random.permutation(self.p.embed_dim) for _ in range(self.p.perm)])
+		rel_perm = np.int32([np.random.permutation(self.p.embed_dim) for _ in range(self.p.perm)])
+
+		comb_idx = []
+		for k in range(self.p.perm):
+			temp = []
+			ent_idx, rel_idx = 0, 0
+
+			for i in range(self.p.k_h):
+				for j in range(self.p.k_w):
+					if k % 2 == 0:
+						if i % 2 == 0:
+							temp.append(ent_perm[k, ent_idx]);
+							ent_idx += 1;
+							temp.append(rel_perm[k, rel_idx] + self.p.embed_dim);
+							rel_idx += 1;
+						else:
+							temp.append(rel_perm[k, rel_idx] + self.p.embed_dim);
+							rel_idx += 1;
+							temp.append(ent_perm[k, ent_idx]);
+							ent_idx += 1;
+					else:
+						if i % 2 == 0:
+							temp.append(rel_perm[k, rel_idx] + self.p.embed_dim);
+							rel_idx += 1;
+							temp.append(ent_perm[k, ent_idx]);
+							ent_idx += 1;
+						else:
+							temp.append(ent_perm[k, ent_idx]);
+							ent_idx += 1;
+							temp.append(rel_perm[k, rel_idx] + self.p.embed_dim);
+							rel_idx += 1;
+
+			comb_idx.append(temp)
+
+		chequer_perm = torch.LongTensor(np.int32(comb_idx)).to(self.device)
+		return chequer_perm
 
 	def add_model(self):
 		"""
@@ -153,7 +202,7 @@ class Main(object):
 		Creates the computational graph for model and initializes it
 		
 		"""
-		model = AcrE(self.p)
+		model = AcrE(self.p, self.chequer_perm)
 		model.to(self.device)
 
 		params = [value.numel() for value in model.parameters()]
@@ -417,6 +466,9 @@ if __name__ == "__main__":
 	parser.add_argument("--num_workers",	type=int,               default=10,                      		help='Maximum number of workers used in DataLoader')
 	parser.add_argument('--seed',           dest="seed",            default=42,   		type=int,       	help='Seed to reproduce results')
 	parser.add_argument('--restore',   	dest="restore",       	action='store_true',            		help='Restore from the previously saved model')
+	parser.add_argument('--k_w', dest="k_w", default=10, type=int, help='Width of the reshaped matrix')
+	parser.add_argument('--k_h', dest="k_h", default=20, type=int, help='Height of the reshaped matrix')
+	parser.add_argument('--perm', dest="perm", default=1, type=int, help='Number of Feature rearrangement to use')
 
 	# Model parameters
 	parser.add_argument("--lbl_smooth",     dest='lbl_smooth',	default=0.1,		type=float,		help='Label smoothing for true labels')
