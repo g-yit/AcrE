@@ -19263,3 +19263,90 @@
 2024-12-03 14:11:56,259 - testrun_ee9ec13d - [INFO] - [E:332| 500]: Train Loss:0.0027631,  Val MRR:0.35834, 	testrun_ee9ec13d
 2024-12-03 14:12:00,749 - testrun_ee9ec13d - [INFO] - [E:332| 600]: Train Loss:0.0027663,  Val MRR:0.35834, 	testrun_ee9ec13d
 2024-12-03 14:12:05,190 - testrun_ee9ec13d - [INFO] - [E:332| 700]: Train Loss:0.002764,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:12:09,669 - testrun_ee9ec13d - [INFO] - [E:332| 800]: Train Loss:0.0027627,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:12:14,260 - testrun_ee9ec13d - [INFO] - [E:332| 900]: Train Loss:0.0027588,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:12:18,727 - testrun_ee9ec13d - [INFO] - [E:332| 1000]: Train Loss:0.0027579,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:12:23,186 - testrun_ee9ec13d - [INFO] - [E:332| 1100]: Train Loss:0.0027575,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:12:27,579 - testrun_ee9ec13d - [INFO] - [E:332| 1200]: Train Loss:0.0027558,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:12:32,031 - testrun_ee9ec13d - [INFO] - [E:332| 1300]: Train Loss:0.0027555,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:12:36,334 - testrun_ee9ec13d - [INFO] - [E:332| 1400]: Train Loss:0.0027568,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:12:40,343 - testrun_ee9ec13d - [INFO] - [E:332| 1500]: Train Loss:0.0027576,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:12:44,699 - testrun_ee9ec13d - [INFO] - [E:332| 1600]: Train Loss:0.0027591,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:12:49,162 - testrun_ee9ec13d - [INFO] - [E:332| 1700]: Train Loss:0.0027588,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:12:53,507 - testrun_ee9ec13d - [INFO] - [E:332| 1800]: Train Loss:0.0027579,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:12:58,012 - testrun_ee9ec13d - [INFO] - [E:332| 1900]: Train Loss:0.0027577,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:02,684 - testrun_ee9ec13d - [INFO] - [E:332| 2000]: Train Loss:0.0027577,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:07,126 - testrun_ee9ec13d - [INFO] - [E:332| 2100]: Train Loss:0.0027577,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:11,201 - testrun_ee9ec13d - [INFO] - [E:332| 2200]: Train Loss:0.0027576,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:15,516 - testrun_ee9ec13d - [INFO] - [E:332| 2300]: Train Loss:0.0027586,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:19,979 - testrun_ee9ec13d - [INFO] - [E:332| 2400]: Train Loss:0.0027568,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:24,361 - testrun_ee9ec13d - [INFO] - [E:332| 2500]: Train Loss:0.0027559,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:28,760 - testrun_ee9ec13d - [INFO] - [E:332| 2600]: Train Loss:0.0027576,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:33,306 - testrun_ee9ec13d - [INFO] - [E:332| 2700]: Train Loss:0.0027582,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:37,777 - testrun_ee9ec13d - [INFO] - [E:332| 2800]: Train Loss:0.0027591,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:42,423 - testrun_ee9ec13d - [INFO] - [E:332| 2900]: Train Loss:0.0027593,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:47,256 - testrun_ee9ec13d - [INFO] - [E:332| 3000]: Train Loss:0.0027589,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:51,726 - testrun_ee9ec13d - [INFO] - [E:332| 3100]: Train Loss:0.0027588,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:55,727 - testrun_ee9ec13d - [INFO] - [E:332| 3200]: Train Loss:0.002759,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:13:59,790 - testrun_ee9ec13d - [INFO] - [E:332| 3300]: Train Loss:0.0027588,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:14:04,394 - testrun_ee9ec13d - [INFO] - [E:332| 3400]: Train Loss:0.0027587,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:14:09,038 - testrun_ee9ec13d - [INFO] - [E:332| 3500]: Train Loss:0.0027591,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:14:13,485 - testrun_ee9ec13d - [INFO] - [E:332| 3600]: Train Loss:0.002759,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:14:18,111 - testrun_ee9ec13d - [INFO] - [E:332| 3700]: Train Loss:0.0027589,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:14:22,689 - testrun_ee9ec13d - [INFO] - [E:332| 3800]: Train Loss:0.0027597,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:14:27,153 - testrun_ee9ec13d - [INFO] - [E:332| 3900]: Train Loss:0.00276,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:14:31,575 - testrun_ee9ec13d - [INFO] - [E:332| 4000]: Train Loss:0.0027602,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:14:35,794 - testrun_ee9ec13d - [INFO] - [E:332| 4100]: Train Loss:0.0027606,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:14:40,133 - testrun_ee9ec13d - [INFO] - [E:332| 4200]: Train Loss:0.0027604,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:14:42,566 - testrun_ee9ec13d - [INFO] - [Epoch:332]:  Training Loss:0.00276
+
+2024-12-03 14:14:43,545 - testrun_ee9ec13d - [INFO] - [Valid, Tail_Batch Step 0]	testrun_ee9ec13d
+2024-12-03 14:14:45,146 - testrun_ee9ec13d - [INFO] - [Valid, Tail_Batch Step 100]	testrun_ee9ec13d
+2024-12-03 14:14:46,224 - testrun_ee9ec13d - [INFO] - [Valid, Head_Batch Step 0]	testrun_ee9ec13d
+2024-12-03 14:14:47,715 - testrun_ee9ec13d - [INFO] - [Valid, Head_Batch Step 100]	testrun_ee9ec13d
+2024-12-03 14:14:48,201 - testrun_ee9ec13d - [INFO] - [Epoch 332 valid]: MRR: Tail : 0.45879, Head : 0.25583, Avg : 0.35731
+2024-12-03 14:14:48,201 - testrun_ee9ec13d - [INFO] - [Epoch 332 valid]: MR: Tail : 120.88, Head : 255.66, Avg : 188.27
+2024-12-03 14:14:48,201 - testrun_ee9ec13d - [INFO] - [Epoch 332 valid]: hits@10: Tail : 0.65081, Head : 0.43964, Avg : 0.54522
+2024-12-03 14:14:48,202 - testrun_ee9ec13d - [INFO] - [Epoch 332 valid]: hits@3: Tail : 0.50254, Head : 0.2836, Avg : 0.39307
+2024-12-03 14:14:48,202 - testrun_ee9ec13d - [INFO] - [Epoch 332 valid]: hits@1: Tail : 0.36253, Head : 0.16584, Avg : 0.26419
+2024-12-03 14:14:48,202 - testrun_ee9ec13d - [INFO] - [Epoch 332]:  Training Loss: 0.0027604,  Valid MRR: 0.35834, 
+
+
+
+2024-12-03 14:14:49,371 - testrun_ee9ec13d - [INFO] - [E:333| 0]: Train Loss:0.0026308,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:14:53,694 - testrun_ee9ec13d - [INFO] - [E:333| 100]: Train Loss:0.0027384,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:14:57,912 - testrun_ee9ec13d - [INFO] - [E:333| 200]: Train Loss:0.0027439,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:02,102 - testrun_ee9ec13d - [INFO] - [E:333| 300]: Train Loss:0.0027512,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:06,440 - testrun_ee9ec13d - [INFO] - [E:333| 400]: Train Loss:0.0027568,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:10,810 - testrun_ee9ec13d - [INFO] - [E:333| 500]: Train Loss:0.0027618,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:15,327 - testrun_ee9ec13d - [INFO] - [E:333| 600]: Train Loss:0.0027687,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:19,800 - testrun_ee9ec13d - [INFO] - [E:333| 700]: Train Loss:0.0027693,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:24,158 - testrun_ee9ec13d - [INFO] - [E:333| 800]: Train Loss:0.0027702,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:28,362 - testrun_ee9ec13d - [INFO] - [E:333| 900]: Train Loss:0.002767,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:32,548 - testrun_ee9ec13d - [INFO] - [E:333| 1000]: Train Loss:0.0027659,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:36,720 - testrun_ee9ec13d - [INFO] - [E:333| 1100]: Train Loss:0.0027671,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:40,927 - testrun_ee9ec13d - [INFO] - [E:333| 1200]: Train Loss:0.0027677,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:45,033 - testrun_ee9ec13d - [INFO] - [E:333| 1300]: Train Loss:0.0027661,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:49,200 - testrun_ee9ec13d - [INFO] - [E:333| 1400]: Train Loss:0.002765,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:53,392 - testrun_ee9ec13d - [INFO] - [E:333| 1500]: Train Loss:0.0027657,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:15:57,630 - testrun_ee9ec13d - [INFO] - [E:333| 1600]: Train Loss:0.0027658,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:02,122 - testrun_ee9ec13d - [INFO] - [E:333| 1700]: Train Loss:0.0027667,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:06,667 - testrun_ee9ec13d - [INFO] - [E:333| 1800]: Train Loss:0.0027658,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:11,170 - testrun_ee9ec13d - [INFO] - [E:333| 1900]: Train Loss:0.0027659,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:15,583 - testrun_ee9ec13d - [INFO] - [E:333| 2000]: Train Loss:0.0027651,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:20,043 - testrun_ee9ec13d - [INFO] - [E:333| 2100]: Train Loss:0.0027644,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:24,386 - testrun_ee9ec13d - [INFO] - [E:333| 2200]: Train Loss:0.002764,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:28,878 - testrun_ee9ec13d - [INFO] - [E:333| 2300]: Train Loss:0.0027635,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:33,309 - testrun_ee9ec13d - [INFO] - [E:333| 2400]: Train Loss:0.0027625,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:37,790 - testrun_ee9ec13d - [INFO] - [E:333| 2500]: Train Loss:0.0027623,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:42,215 - testrun_ee9ec13d - [INFO] - [E:333| 2600]: Train Loss:0.0027625,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:46,716 - testrun_ee9ec13d - [INFO] - [E:333| 2700]: Train Loss:0.0027622,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:51,569 - testrun_ee9ec13d - [INFO] - [E:333| 2800]: Train Loss:0.0027626,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:16:55,949 - testrun_ee9ec13d - [INFO] - [E:333| 2900]: Train Loss:0.0027628,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:17:00,563 - testrun_ee9ec13d - [INFO] - [E:333| 3000]: Train Loss:0.0027627,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:17:04,995 - testrun_ee9ec13d - [INFO] - [E:333| 3100]: Train Loss:0.0027632,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:17:09,506 - testrun_ee9ec13d - [INFO] - [E:333| 3200]: Train Loss:0.0027633,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:17:14,063 - testrun_ee9ec13d - [INFO] - [E:333| 3300]: Train Loss:0.0027626,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:17:18,746 - testrun_ee9ec13d - [INFO] - [E:333| 3400]: Train Loss:0.0027625,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:17:23,120 - testrun_ee9ec13d - [INFO] - [E:333| 3500]: Train Loss:0.0027622,  Val MRR:0.35834, 	testrun_ee9ec13d
+2024-12-03 14:17:27,344 - testrun_ee9ec13d - [INFO] - [E:333| 3600]: Train Loss:0.0027626,  Val MRR:0.35834, 	testrun_ee9ec13d

@@ -23744,3 +23744,110 @@
 2024-12-03 14:11:56,785 - testrun_d9a9a8a0 - [INFO] - [E:409| 1800]: Train Loss:0.0028317,  Val MRR:0.36167, 	testrun_d9a9a8a0
 2024-12-03 14:12:00,653 - testrun_d9a9a8a0 - [INFO] - [E:409| 1900]: Train Loss:0.0028318,  Val MRR:0.36167, 	testrun_d9a9a8a0
 2024-12-03 14:12:04,688 - testrun_d9a9a8a0 - [INFO] - [E:409| 2000]: Train Loss:0.0028327,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:08,974 - testrun_d9a9a8a0 - [INFO] - [E:409| 2100]: Train Loss:0.0028323,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:13,248 - testrun_d9a9a8a0 - [INFO] - [E:409| 2200]: Train Loss:0.0028327,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:17,502 - testrun_d9a9a8a0 - [INFO] - [E:409| 2300]: Train Loss:0.0028341,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:21,597 - testrun_d9a9a8a0 - [INFO] - [E:409| 2400]: Train Loss:0.002833,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:25,641 - testrun_d9a9a8a0 - [INFO] - [E:409| 2500]: Train Loss:0.0028329,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:29,804 - testrun_d9a9a8a0 - [INFO] - [E:409| 2600]: Train Loss:0.0028333,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:33,851 - testrun_d9a9a8a0 - [INFO] - [E:409| 2700]: Train Loss:0.0028321,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:38,125 - testrun_d9a9a8a0 - [INFO] - [E:409| 2800]: Train Loss:0.0028319,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:42,367 - testrun_d9a9a8a0 - [INFO] - [E:409| 2900]: Train Loss:0.002832,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:46,581 - testrun_d9a9a8a0 - [INFO] - [E:409| 3000]: Train Loss:0.0028333,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:50,925 - testrun_d9a9a8a0 - [INFO] - [E:409| 3100]: Train Loss:0.002833,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:55,026 - testrun_d9a9a8a0 - [INFO] - [E:409| 3200]: Train Loss:0.0028335,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:12:59,206 - testrun_d9a9a8a0 - [INFO] - [E:409| 3300]: Train Loss:0.0028333,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:03,798 - testrun_d9a9a8a0 - [INFO] - [E:409| 3400]: Train Loss:0.0028336,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:08,134 - testrun_d9a9a8a0 - [INFO] - [E:409| 3500]: Train Loss:0.0028334,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:12,550 - testrun_d9a9a8a0 - [INFO] - [E:409| 3600]: Train Loss:0.0028337,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:16,745 - testrun_d9a9a8a0 - [INFO] - [E:409| 3700]: Train Loss:0.0028339,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:20,869 - testrun_d9a9a8a0 - [INFO] - [E:409| 3800]: Train Loss:0.0028343,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:25,079 - testrun_d9a9a8a0 - [INFO] - [E:409| 3900]: Train Loss:0.0028339,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:29,290 - testrun_d9a9a8a0 - [INFO] - [E:409| 4000]: Train Loss:0.0028335,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:33,669 - testrun_d9a9a8a0 - [INFO] - [E:409| 4100]: Train Loss:0.0028336,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:38,014 - testrun_d9a9a8a0 - [INFO] - [E:409| 4200]: Train Loss:0.002834,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:40,478 - testrun_d9a9a8a0 - [INFO] - [Epoch:409]:  Training Loss:0.002834
+
+2024-12-03 14:13:41,149 - testrun_d9a9a8a0 - [INFO] - [Valid, Tail_Batch Step 0]	testrun_d9a9a8a0
+2024-12-03 14:13:42,512 - testrun_d9a9a8a0 - [INFO] - [Valid, Tail_Batch Step 100]	testrun_d9a9a8a0
+2024-12-03 14:13:43,854 - testrun_d9a9a8a0 - [INFO] - [Valid, Head_Batch Step 0]	testrun_d9a9a8a0
+2024-12-03 14:13:45,139 - testrun_d9a9a8a0 - [INFO] - [Valid, Head_Batch Step 100]	testrun_d9a9a8a0
+2024-12-03 14:13:45,658 - testrun_d9a9a8a0 - [INFO] - [Epoch 409 valid]: MRR: Tail : 0.46105, Head : 0.26153, Avg : 0.36129
+2024-12-03 14:13:45,659 - testrun_d9a9a8a0 - [INFO] - [Epoch 409 valid]: MR: Tail : 112.77, Head : 240.96, Avg : 176.86
+2024-12-03 14:13:45,659 - testrun_d9a9a8a0 - [INFO] - [Epoch 409 valid]: hits@10: Tail : 0.65389, Head : 0.43855, Avg : 0.54622
+2024-12-03 14:13:45,659 - testrun_d9a9a8a0 - [INFO] - [Epoch 409 valid]: hits@3: Tail : 0.50533, Head : 0.28948, Avg : 0.39741
+2024-12-03 14:13:45,659 - testrun_d9a9a8a0 - [INFO] - [Epoch 409 valid]: hits@1: Tail : 0.36516, Head : 0.17257, Avg : 0.26886
+2024-12-03 14:13:45,660 - testrun_d9a9a8a0 - [INFO] - [Epoch 409]:  Training Loss: 0.002834,  Valid MRR: 0.36167, 
+
+
+
+2024-12-03 14:13:46,613 - testrun_d9a9a8a0 - [INFO] - [E:410| 0]: Train Loss:0.0029242,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:51,207 - testrun_d9a9a8a0 - [INFO] - [E:410| 100]: Train Loss:0.0028573,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:55,415 - testrun_d9a9a8a0 - [INFO] - [E:410| 200]: Train Loss:0.0028542,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:13:59,572 - testrun_d9a9a8a0 - [INFO] - [E:410| 300]: Train Loss:0.0028474,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:03,910 - testrun_d9a9a8a0 - [INFO] - [E:410| 400]: Train Loss:0.0028487,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:08,426 - testrun_d9a9a8a0 - [INFO] - [E:410| 500]: Train Loss:0.0028457,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:12,741 - testrun_d9a9a8a0 - [INFO] - [E:410| 600]: Train Loss:0.0028427,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:16,735 - testrun_d9a9a8a0 - [INFO] - [E:410| 700]: Train Loss:0.0028424,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:20,660 - testrun_d9a9a8a0 - [INFO] - [E:410| 800]: Train Loss:0.0028422,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:25,020 - testrun_d9a9a8a0 - [INFO] - [E:410| 900]: Train Loss:0.0028429,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:28,819 - testrun_d9a9a8a0 - [INFO] - [E:410| 1000]: Train Loss:0.002842,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:32,774 - testrun_d9a9a8a0 - [INFO] - [E:410| 1100]: Train Loss:0.002843,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:37,226 - testrun_d9a9a8a0 - [INFO] - [E:410| 1200]: Train Loss:0.0028411,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:41,371 - testrun_d9a9a8a0 - [INFO] - [E:410| 1300]: Train Loss:0.0028405,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:46,586 - testrun_d9a9a8a0 - [INFO] - [E:410| 1400]: Train Loss:0.0028386,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:51,134 - testrun_d9a9a8a0 - [INFO] - [E:410| 1500]: Train Loss:0.0028375,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:54,997 - testrun_d9a9a8a0 - [INFO] - [E:410| 1600]: Train Loss:0.0028358,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:14:59,224 - testrun_d9a9a8a0 - [INFO] - [E:410| 1700]: Train Loss:0.002836,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:03,452 - testrun_d9a9a8a0 - [INFO] - [E:410| 1800]: Train Loss:0.0028364,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:07,731 - testrun_d9a9a8a0 - [INFO] - [E:410| 1900]: Train Loss:0.0028374,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:12,002 - testrun_d9a9a8a0 - [INFO] - [E:410| 2000]: Train Loss:0.0028368,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:16,362 - testrun_d9a9a8a0 - [INFO] - [E:410| 2100]: Train Loss:0.0028373,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:20,718 - testrun_d9a9a8a0 - [INFO] - [E:410| 2200]: Train Loss:0.0028371,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:25,141 - testrun_d9a9a8a0 - [INFO] - [E:410| 2300]: Train Loss:0.0028371,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:29,360 - testrun_d9a9a8a0 - [INFO] - [E:410| 2400]: Train Loss:0.0028363,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:33,480 - testrun_d9a9a8a0 - [INFO] - [E:410| 2500]: Train Loss:0.002836,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:37,558 - testrun_d9a9a8a0 - [INFO] - [E:410| 2600]: Train Loss:0.0028355,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:41,636 - testrun_d9a9a8a0 - [INFO] - [E:410| 2700]: Train Loss:0.002835,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:45,974 - testrun_d9a9a8a0 - [INFO] - [E:410| 2800]: Train Loss:0.0028347,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:50,207 - testrun_d9a9a8a0 - [INFO] - [E:410| 2900]: Train Loss:0.0028336,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:54,460 - testrun_d9a9a8a0 - [INFO] - [E:410| 3000]: Train Loss:0.0028331,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:15:58,594 - testrun_d9a9a8a0 - [INFO] - [E:410| 3100]: Train Loss:0.0028331,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:02,668 - testrun_d9a9a8a0 - [INFO] - [E:410| 3200]: Train Loss:0.0028332,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:06,934 - testrun_d9a9a8a0 - [INFO] - [E:410| 3300]: Train Loss:0.0028321,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:10,821 - testrun_d9a9a8a0 - [INFO] - [E:410| 3400]: Train Loss:0.0028321,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:15,083 - testrun_d9a9a8a0 - [INFO] - [E:410| 3500]: Train Loss:0.0028318,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:19,489 - testrun_d9a9a8a0 - [INFO] - [E:410| 3600]: Train Loss:0.0028315,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:23,820 - testrun_d9a9a8a0 - [INFO] - [E:410| 3700]: Train Loss:0.0028321,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:27,826 - testrun_d9a9a8a0 - [INFO] - [E:410| 3800]: Train Loss:0.0028325,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:31,967 - testrun_d9a9a8a0 - [INFO] - [E:410| 3900]: Train Loss:0.0028329,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:36,016 - testrun_d9a9a8a0 - [INFO] - [E:410| 4000]: Train Loss:0.0028333,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:40,272 - testrun_d9a9a8a0 - [INFO] - [E:410| 4100]: Train Loss:0.0028337,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:44,519 - testrun_d9a9a8a0 - [INFO] - [E:410| 4200]: Train Loss:0.002834,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:46,765 - testrun_d9a9a8a0 - [INFO] - [Epoch:410]:  Training Loss:0.002834
+
+2024-12-03 14:16:47,427 - testrun_d9a9a8a0 - [INFO] - [Valid, Tail_Batch Step 0]	testrun_d9a9a8a0
+2024-12-03 14:16:48,632 - testrun_d9a9a8a0 - [INFO] - [Valid, Tail_Batch Step 100]	testrun_d9a9a8a0
+2024-12-03 14:16:50,034 - testrun_d9a9a8a0 - [INFO] - [Valid, Head_Batch Step 0]	testrun_d9a9a8a0
+2024-12-03 14:16:51,342 - testrun_d9a9a8a0 - [INFO] - [Valid, Head_Batch Step 100]	testrun_d9a9a8a0
+2024-12-03 14:16:51,860 - testrun_d9a9a8a0 - [INFO] - [Epoch 410 valid]: MRR: Tail : 0.46179, Head : 0.26143, Avg : 0.36161
+2024-12-03 14:16:51,860 - testrun_d9a9a8a0 - [INFO] - [Epoch 410 valid]: MR: Tail : 112.82, Head : 238.3, Avg : 175.56
+2024-12-03 14:16:51,860 - testrun_d9a9a8a0 - [INFO] - [Epoch 410 valid]: hits@10: Tail : 0.65429, Head : 0.43958, Avg : 0.54693
+2024-12-03 14:16:51,860 - testrun_d9a9a8a0 - [INFO] - [Epoch 410 valid]: hits@3: Tail : 0.50619, Head : 0.28914, Avg : 0.39766
+2024-12-03 14:16:51,860 - testrun_d9a9a8a0 - [INFO] - [Epoch 410 valid]: hits@1: Tail : 0.36624, Head : 0.1724, Avg : 0.26932
+2024-12-03 14:16:51,860 - testrun_d9a9a8a0 - [INFO] - [Epoch 410]:  Training Loss: 0.0028335,  Valid MRR: 0.36167, 
+
+
+
+2024-12-03 14:16:53,042 - testrun_d9a9a8a0 - [INFO] - [E:411| 0]: Train Loss:0.0030106,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:16:57,569 - testrun_d9a9a8a0 - [INFO] - [E:411| 100]: Train Loss:0.0028487,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:17:01,962 - testrun_d9a9a8a0 - [INFO] - [E:411| 200]: Train Loss:0.0028482,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:17:06,436 - testrun_d9a9a8a0 - [INFO] - [E:411| 300]: Train Loss:0.0028403,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:17:10,773 - testrun_d9a9a8a0 - [INFO] - [E:411| 400]: Train Loss:0.0028418,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:17:14,603 - testrun_d9a9a8a0 - [INFO] - [E:411| 500]: Train Loss:0.0028414,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:17:19,024 - testrun_d9a9a8a0 - [INFO] - [E:411| 600]: Train Loss:0.0028376,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:17:23,346 - testrun_d9a9a8a0 - [INFO] - [E:411| 700]: Train Loss:0.0028412,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:17:27,656 - testrun_d9a9a8a0 - [INFO] - [E:411| 800]: Train Loss:0.0028402,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:17:32,107 - testrun_d9a9a8a0 - [INFO] - [E:411| 900]: Train Loss:0.0028409,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:17:36,131 - testrun_d9a9a8a0 - [INFO] - [E:411| 1000]: Train Loss:0.0028411,  Val MRR:0.36167, 	testrun_d9a9a8a0
+2024-12-03 14:17:40,460 - testrun_d9a9a8a0 - [INFO] - [E:411| 1100]: Train Loss:0.0028394,  Val MRR:0.36167, 	testrun_d9a9a8a0
