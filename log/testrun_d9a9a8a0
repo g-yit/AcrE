@@ -1,0 +1,11 @@
+2024-12-03 14:31:23,249 - testrun_d9a9a8a0 - [INFO] - {'dataset': 'FB15k-237', 'name': 'testrun_d9a9a8a0', 'gpu': '0', 'train_strategy': 'one_to_x', 'opt': 'adam', 'neg_num': 1000, 'batch_size': 128, 'l2': 0.0, 'lr': 0.001, 'max_epochs': 0, 'num_workers': 10, 'seed': 42, 'restore': False, 'k_w': 10, 'k_h': 20, 'perm': 1, 'lbl_smooth': 0.1, 'embed_dim': 200, 'bias': False, 'hid_drop': 0.5, 'feat_drop': 0.2, 'inp_drop': 0.3, 'channel': 32, 'way': 't', 'first_atrous': 1, 'second_atrous': 2, 'third_atrous': 5, 'log_dir': './log/', 'config_dir': './config/'}
+2024-12-03 14:31:27,489 - testrun_d9a9a8a0 - [INFO] - Loading best model, evaluating on test data
+2024-12-03 14:31:28,432 - testrun_d9a9a8a0 - [INFO] - [Test, Tail_Batch Step 0]	testrun_d9a9a8a0
+2024-12-03 14:31:29,302 - testrun_d9a9a8a0 - [INFO] - [Test, Tail_Batch Step 100]	testrun_d9a9a8a0
+2024-12-03 14:31:30,270 - testrun_d9a9a8a0 - [INFO] - [Test, Head_Batch Step 0]	testrun_d9a9a8a0
+2024-12-03 14:31:31,210 - testrun_d9a9a8a0 - [INFO] - [Test, Head_Batch Step 100]	testrun_d9a9a8a0
+2024-12-03 14:31:31,810 - testrun_d9a9a8a0 - [INFO] - [Epoch 0 test]: MRR: Tail : 0.45481, Head : 0.25886, Avg : 0.35683
+2024-12-03 14:31:31,810 - testrun_d9a9a8a0 - [INFO] - [Epoch 0 test]: MR: Tail : 127.0, Head : 245.21, Avg : 186.1
+2024-12-03 14:31:31,810 - testrun_d9a9a8a0 - [INFO] - [Epoch 0 test]: hits@10: Tail : 0.64746, Head : 0.43795, Avg : 0.5427
+2024-12-03 14:31:31,810 - testrun_d9a9a8a0 - [INFO] - [Epoch 0 test]: hits@3: Tail : 0.50093, Head : 0.28828, Avg : 0.39461
+2024-12-03 14:31:31,810 - testrun_d9a9a8a0 - [INFO] - [Epoch 0 test]: hits@1: Tail : 0.35684, Head : 0.16877, Avg : 0.2628
