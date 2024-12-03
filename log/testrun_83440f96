@@ -12975,3 +12975,14 @@
 2024-12-03 10:54:51,129 - testrun_83440f96 - [INFO] - [E:223| 3900]: Train Loss:0.0027644,  Val MRR:0.35834, 	testrun_83440f96
 2024-12-03 10:54:56,515 - testrun_83440f96 - [INFO] - [E:223| 4000]: Train Loss:0.0027638,  Val MRR:0.35834, 	testrun_83440f96
 2024-12-03 10:55:01,496 - testrun_83440f96 - [INFO] - [E:223| 4100]: Train Loss:0.0027634,  Val MRR:0.35834, 	testrun_83440f96
+2024-12-03 14:27:50,663 - testrun_83440f96 - [INFO] - {'dataset': 'FB15k-237', 'name': 'testrun_83440f96', 'gpu': '0', 'train_strategy': 'one_to_x', 'opt': 'adam', 'neg_num': 1000, 'batch_size': 128, 'l2': 0.0, 'lr': 0.001, 'max_epochs': 0, 'num_workers': 10, 'seed': 42, 'restore': False, 'k_w': 10, 'k_h': 20, 'perm': 1, 'lbl_smooth': 0.1, 'embed_dim': 200, 'bias': False, 'hid_drop': 0.5, 'feat_drop': 0.2, 'inp_drop': 0.3, 'channel': 32, 'way': 't', 'first_atrous': 1, 'second_atrous': 2, 'third_atrous': 5, 'log_dir': './log/', 'config_dir': './config/'}
+2024-12-03 14:27:54,848 - testrun_83440f96 - [INFO] - Loading best model, evaluating on test data
+2024-12-03 14:27:55,510 - testrun_83440f96 - [INFO] - [Test, Tail_Batch Step 0]	testrun_83440f96
+2024-12-03 14:27:56,402 - testrun_83440f96 - [INFO] - [Test, Tail_Batch Step 100]	testrun_83440f96
+2024-12-03 14:27:57,397 - testrun_83440f96 - [INFO] - [Test, Head_Batch Step 0]	testrun_83440f96
+2024-12-03 14:27:58,384 - testrun_83440f96 - [INFO] - [Test, Head_Batch Step 100]	testrun_83440f96
+2024-12-03 14:27:58,987 - testrun_83440f96 - [INFO] - [Epoch 0 test]: MRR: Tail : 0.45108, Head : 0.25471, Avg : 0.3529
+2024-12-03 14:27:58,988 - testrun_83440f96 - [INFO] - [Epoch 0 test]: MR: Tail : 134.43, Head : 269.8, Avg : 202.11
+2024-12-03 14:27:58,988 - testrun_83440f96 - [INFO] - [Epoch 0 test]: hits@10: Tail : 0.64605, Head : 0.4401, Avg : 0.54307
+2024-12-03 14:27:58,988 - testrun_83440f96 - [INFO] - [Epoch 0 test]: hits@3: Tail : 0.4955, Head : 0.28115, Avg : 0.38833
+2024-12-03 14:27:58,988 - testrun_83440f96 - [INFO] - [Epoch 0 test]: hits@1: Tail : 0.35332, Head : 0.16515, Avg : 0.25923
