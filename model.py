@@ -1,7 +1,10 @@
+import torch
+from torch import Tensor
+
 from helper import *
 
 
-def interleave_two_tensor(tensor_a, tensor_b, mode='row', first='a'):
+def interleave_two_tensor(tensor_a: Tensor, tensor_b, mode='row', first='a'):
     """
     将两个张量按指定方式交替合并，支持带或不带 batch_size 维度。
 
@@ -30,7 +33,7 @@ def interleave_two_tensor(tensor_a, tensor_b, mode='row', first='a'):
 
     if mode == 'row':
         # 行交替合并，初始化结果张量，形状为 [batch_size, 2 * num_rows, num_cols]
-        result = torch.empty((batch_size, num_rows * 2, num_cols), dtype=tensor_a.dtype)
+        result = torch.empty((batch_size, num_rows * 2, num_cols), dtype=tensor_a.dtype, device=tensor_a.device)
         # 从0开始每隔1个元素放一行matrix_a
         if first == 'a':
             result[:, 0::2] = tensor_a  # 将 matrix_a 的行放在偶数行
@@ -41,7 +44,7 @@ def interleave_two_tensor(tensor_a, tensor_b, mode='row', first='a'):
 
     elif mode == 'column':
         # 列交替合并，初始化结果张量，形状为 [batch_size, num_rows, 2 * num_cols]
-        result = torch.empty((batch_size, num_rows, num_cols * 2), dtype=tensor_a.dtype)
+        result = torch.empty((batch_size, num_rows, num_cols * 2), dtype=tensor_a.dtype, device=tensor_a.device)
         if first == 'a':
             result[:, :, 0::2] = tensor_a  # 将 matrix_a 的列放在偶数列
             result[:, :, 1::2] = tensor_b  # 将 matrix_b 的列放在奇数列
@@ -86,7 +89,7 @@ class AcrE(torch.nn.Module):
         self.inp_drop = torch.nn.Dropout(self.p.inp_drop)
         self.hidden_drop = torch.nn.Dropout(self.p.hid_drop)
         self.feature_map_drop = torch.nn.Dropout2d(self.p.feat_drop)
-        self.bn0 = torch.nn.BatchNorm2d(1)
+        self.bn0 = torch.nn.BatchNorm2d(2)
         self.bn1 = torch.nn.BatchNorm2d(self.p.channel)
         self.bn2 = torch.nn.BatchNorm1d(self.p.embed_dim)
         self.fc = torch.nn.Linear(self.p.channel * 400, self.p.embed_dim)
@@ -110,6 +113,7 @@ class AcrE(torch.nn.Module):
                                          dilation=self.second_atrous, padding_mode='circular')
             self.conv3 = torch.nn.Conv2d(2, self.p.channel, (3, 3), 1, self.third_atrous, bias=self.p.bias,
                                          dilation=self.third_atrous, padding_mode='circular')
+            self.conv11 = torch.nn.Conv2d(2, self.p.channel, (1, 1), 1, bias=self.p.bias);
             self.W_gate_e = torch.nn.Linear(1600, 400)
 
         self.register_parameter('bias', Parameter(torch.zeros(self.p.num_ent)))
@@ -124,9 +128,9 @@ class AcrE(torch.nn.Module):
         sub_emb = self.ent_embed(sub)
         rel_emb = self.rel_embed(rel)
 
-        alt_sub_emb = sub_emb.reshape(-1, 1, 10, 20)
-        alt_rel_emb = rel_emb.reshape(-1, 1, 10, 20)
-        alt_comb = interleave_two_tensor(alt_sub_emb, alt_rel_emb)
+        alt_sub_emb = sub_emb.reshape(-1, 10, 20)
+        alt_rel_emb = rel_emb.reshape(-1, 10, 20)
+        alt_comb = torch.unsqueeze(interleave_two_tensor(alt_sub_emb, alt_rel_emb), 1)
 
         comb_emb = torch.cat([sub_emb, rel_emb], dim=1)
         chequer_perm = comb_emb[:, self.chequer_perm]
@@ -144,7 +148,7 @@ class AcrE(torch.nn.Module):
             conv1 = self.conv1(x).view(-1, self.p.channel, 400)
             conv2 = self.conv2(x).view(-1, self.p.channel, 400)
             conv3 = self.conv3(x).view(-1, self.p.channel, 400)
-            res = res.expand(-1, self.p.channel, 20, 20).view(-1, self.p.channel, 400)
+            res = self.conv11(x).view(-1, self.p.channel, 400)
             x = torch.cat((res, conv1, conv2, conv3), dim=2)
             x = self.W_gate_e(x).view(-1, self.p.channel, 20, 20)
         x = self.bn1(x)
